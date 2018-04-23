@@ -1,4 +1,4 @@
-from numpy import random
+import numnpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC
@@ -13,8 +13,8 @@ if __name__ == '__main__':
     df.hist(bins=20)
     plt.show()
     data_array = df.values
-    shuffled = random.shuffle(data_array)
-    print(shuffled)
+    shuffled = data_array
+    np.random.shuffle(shuffled)
     X_Learn = shuffled[:80][:,0:4]
     Y_learn = shuffled[:80][:,4]
     svc = SVC()
@@ -24,13 +24,7 @@ if __name__ == '__main__':
     predictions = svc.predict(X)
     accuracy = accuracy_score(Y,predictions)
 
-
-
-    print("Predicted Results: ",'\n',predictions)
-    print("Actual Results",'\n',Y)
-    print("Accuracy: ",accuracy*100,"%")
-
-
-    print("Label Test: ",list(dict.fromkeys(Y_learn)))
-
-
+    print("Predicted Results: ",'\n', predictions)
+    print("Actual Results",'\n', Y)
+    print("Accuracy: ", accuracy*100,"%")
+    
