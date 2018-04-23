@@ -20,7 +20,9 @@ In addition to the iris_descriptor project, I have begun work on writing my own 
 Relevant External Links:
 
 Wikipedia page of the Iris Data Set:
+
     https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 Link to hosted sources files on University of California, Irvine servers:
+
     http://archive.ics.uci.edu/ml/machine-learning-databases/iris/
