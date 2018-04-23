@@ -1,4 +1,4 @@
-import numnpy as np
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC
@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 if __name__ == '__main__':
     df = pd.read_csv("iris_data.csv")
     df.columns = ['sepal length','sepal width','petal length','petal width','iris class']
-    print("Test Data: ",'\n',df)
+    #print("Test Data: ",'\n',df)
     print("Description: ",'\n', df.describe())
     df.hist(bins=20)
     plt.show()
