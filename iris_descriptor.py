@@ -8,10 +8,10 @@ from sklearn.metrics import accuracy_score
 if __name__ == '__main__':
     df = pd.read_csv("iris_data.csv")
     df.columns = ['sepal length','sepal width','petal length','petal width','iris class']
-    #print("Test Data: ",'\n',df)
-    #print("Description: ",'\n', df.describe())
-    #df.hist(bins=20)
-    #plt.show()
+    print("Test Data: ",'\n',df)
+    print("Description: ",'\n', df.describe())
+    df.hist(bins=20)
+    plt.show()
     data_array = df.values
     shuffled = random.shuffle(data_array)
     print(shuffled)
