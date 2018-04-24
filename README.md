@@ -5,9 +5,9 @@ The "Hello World" of Data Science:
 
 This project is a brief and simple example of utilizing machine learning to predict Iris Flower classification by examining petal and sepal measurements.
 
-The "Iris_descriptor.py" file is a fully coherent classification script utilizing a Support Vector Machine to classify the flowers using a shuffled sampling of 80 examples from the "iris_data.csv" file. Once the SVM has performed its training calculations, it is then fed the last 20 data points of the previously shuffled data set to predict the flower classification. 
+The "Iris_descriptor.py" file is a simple script that creates some graphs to visualize the data set and then train a Support Vector Machine by importing and shuffling the data from "iris_data.csv", and feeding the first 80 samples into the algorithm as a training batch. Once the SVM has performed its training calculations, it is then given the last 20 data points of the previously shuffled data set to predict the flower classification. 
 
-Unsurprisingly from the built in module and comparatively simple data set, the prediction is 100% accurate.
+Because of the mature Support Vector Machine algorithms in Sklearn, and the relatively simple data set, prediction accuracy typically ranges between 90-100%.
 
 ******************************************************************************************************************************************
 
