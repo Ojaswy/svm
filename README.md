@@ -11,7 +11,7 @@ Because of the mature Support Vector Machine algorithms in Sklearn, and the rela
 
 ******************************************************************************************************************************************
 
-In addition to the iris_descriptor project, I have begun work on writing my own implementation of J.Platt's Sequential Minimal Optimization algorithm for training a Support Vector Machine. Rather than tackling the Quadratic Programming problem and handling the Lagrange multipliers of the Support Vector Machine in matrix form, this algorithm instead iterates over the array of multipliers, optimizing 2 at a time. Please note that this script is WIP and will be continuously updated in the near future.
+In addition to the iris_descriptor project, I have begun work on writing my own implementation of J.Platt's Sequential Minimal Optimization algorithm for training a Support Vector Machine. Rather than tackling the Quadratic Programming problem and handling the Lagrange multipliers of the Support Vector Machine in matrix form, this algorithm instead iterates over the array of multipliers, optimizing 2 at a time. 
 
 
 -Stefan Soder-
